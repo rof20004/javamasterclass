@@ -8,5 +8,7 @@
   <description>Udemy Java Programming Masterclass  for Software Developers</description>
   <modules>
   	<module>section3-first-steps</module>
+  	<module>section1-course-introduction</module>
+  	<module>section2-software-tools-setup</module>
   </modules>
 </project>
