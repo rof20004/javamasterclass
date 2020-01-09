@@ -1,4 +1,4 @@
-package byteshortlongwidth;
+package casting;
 
 public class Hello {
 
@@ -24,6 +24,9 @@ public class Hello {
 		long myMaxLongValue = Long.MAX_VALUE;
 		System.out.println("My MIN long value = " + myMinLongValue);
 		System.out.println("My MAX long value = " + myMaxLongValue);
+		
+		byte myNewByteValue = (byte) (myMinByteValue / 2);
+		System.out.println(myNewByteValue);
 	}
 
 }
